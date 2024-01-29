@@ -1036,9 +1036,11 @@ i{
 
 @media screen and (max-width:896px) {
     *{
+        
         padding: 0;
         margin: 0;
     }
+    
      header{
         width: 100%;
         height: 15vh;
@@ -1183,7 +1185,7 @@ i{
      }
      .cont2{
         width: 100%;
-        height: 70vh;
+        height: 80vh;
 
      }
      .brands{
@@ -1195,6 +1197,7 @@ i{
      .cont3{
         width: 100%;
         height: 110vh;
+        display: none;
 
      }
      .review{
@@ -1202,6 +1205,9 @@ i{
      }
      .scroll{
         width: 100%;
+     }
+     .find{
+        display: none;
      }
      .boxex{
         flex-direction: column;
